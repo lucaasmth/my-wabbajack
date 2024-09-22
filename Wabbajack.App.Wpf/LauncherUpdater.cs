@@ -31,7 +31,7 @@ namespace Wabbajack
 
         private readonly DownloadDispatcher _downloader;
 
-        private static Uri GITHUB_REPO_RELEASES = new("https://api.github.com/repos/wabbajack-tools/wabbajack/releases");
+        private static Uri GITHUB_REPO_RELEASES = new("https://api.github.com/repos/lucaasmth/my-wabbajack/releases");
 
         public LauncherUpdater(ILogger<LauncherUpdater> logger, HttpClient client, Client wjclient, DTOSerializer dtos,
             DownloadDispatcher downloader)
